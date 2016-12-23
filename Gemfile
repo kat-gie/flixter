@@ -1,9 +1,15 @@
 source 'https://rubygems.org'
 
+# added 12/22/2016
 gem 'rails_12factor', group: :production
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
 gem 'sass-rails'
+
+# added 12/23/2016
+gem 'simple_form' # for building forms 
+gem 'devise' # for user authentication 
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.9'
 # Use postgresql as the database for Active Record
