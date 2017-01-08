@@ -49,6 +49,9 @@ h1, h2, h3, h4, h5, h6, .navbar {
 body {
   background: url('grey.png');
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .booyah-box {
@@ -75,4 +78,12 @@ body {
   border-radius: 3px;
   padding:8px;
   margin:10px;
+}
+
+.site-content {
+  flex: 1;
+}
+
+.wrap {
+  flex: 1;
 }
