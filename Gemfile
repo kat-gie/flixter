@@ -10,6 +10,11 @@ gem 'sass-rails'
 gem 'simple_form' # for building forms 
 gem 'devise' # for user authentication 
 
+# added 1/7/2017
+gem 'carrierwave', '~> 1.0'
+gem "figaro", ">= 1.0.0"
+gem "fog"
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.9'
 # Use postgresql as the database for Active Record
