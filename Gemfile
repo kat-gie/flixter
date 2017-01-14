@@ -19,6 +19,9 @@ gem 'mini_magick', '~> 4.3.1'
 #added 1/8/2017
 gem 'carrierwave-aws'
 
+#added 1/13/2017 
+gem 'stripe'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.9'
 # Use postgresql as the database for Active Record
