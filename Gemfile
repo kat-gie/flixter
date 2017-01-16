@@ -25,6 +25,9 @@ gem 'stripe'
 # added 1/14/2017
 gem 'ranked-model'
 
+# added 1/15/2017
+gem 'jquery-ui-rails'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.9'
 # Use postgresql as the database for Active Record
