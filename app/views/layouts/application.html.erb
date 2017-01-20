@@ -59,9 +59,39 @@
 
 <div id="footer">
   <div class="container">
-    <b>Teachers</b>
-    <br />
-    <%= link_to 'Teach a Course', new_instructor_course_path %>
+    <div class="col-xs-12 col-sm-3">
+      <b>Teachers</b>
+      <br />
+      <%= link_to 'Teach a Course', new_instructor_course_path %>
+      <br />
+      <%= link_to 'My Dashboard', dashboard_path %>
+    </div>
+    <div class="col-xs-12 col-sm-3">
+      <b>About</b>
+      <br />
+      <%= link_to 'About', about_path %>
+      <br />
+      <%= link_to 'Privacy Policy', privacy_path %>
+    </div>
+    <div class="col-xs-12 col-sm-3">
+      <b>Contact</b>
+      <br />
+      gielenkatie@gmail.com
+      <br />
+      Baton Rouge
+      <br />
+      Louisiana
+    </div>
+    <div class="col-xs-12 col-sm-3 social">
+      <b>Social</b> 
+      <br /><br />
+      <%= link_to 'http://github.com/kat-gie' do %>
+        <%= image_tag 'github.png', class: 'social-button' %>
+      <% end %>
+      <%= link_to 'http://facebook.com/katie.gielen.1' do %>
+        <%= image_tag 'facebook.png', class: 'social-button' %>
+      <% end %>
+    </div>
   </div>
 </div>
 

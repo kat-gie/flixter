@@ -13,9 +13,14 @@
       <br />
       <%= link_to 'Administer', instructor_course_path(@course), class: 'btn btn-danger btn-large' %>
     <% end %>
+</div>
 
-    <br /><br />
+<div class="col-sm-8 col-xs-12">
+  <%= @course.description %>
+</div>
+<br /><br />
 
+<div class="text-center">
     <% if current_user && current_user.enrolled_in?(@course) %>
       <h3 class="label label-info">You Are Enrolled!</h3>
     <% else %>
@@ -30,10 +35,6 @@
         <% end %>
       <% end %>
     <% end %>
-  </div>
-
-  <div class="col-sm-8 col-xs-12">
-    <%= @course.description %>
   </div>
 
 <br />
