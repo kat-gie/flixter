@@ -1,28 +1,15 @@
-== README
+==Flixter 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Flixter is a Ruby on Rails web app that also utilizes jQuery and Javascript. Instructors and learners can create a profile, teach or enroll in a course, and securely send/receive payments. 
 
-Things you may want to cover:
+Features: 
 
-* Ruby version
+- Stripe API is utilized to securely process payments for courses
+- Drag and drop capability with jQuery when customizing courses 
+- AWS (S3) for media (videos and photos)
+- Devise utilized for forms 
+- Instructors can restrict access to courses 
+- User's dashboard depicts which courses a user is enrolled in and/or teaching 
 
-* System dependencies
+https://i.imgur.com/ijq2BuPl.png
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
